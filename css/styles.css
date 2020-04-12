@@ -1,0 +1,171 @@
+body{
+  font-family: "Montserrat";
+}
+
+#title{
+  background-color: #f76a8c;
+  color:white;
+
+}
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+
+
+
+h1{
+font-family: "Montserrat", sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+/*HEADING FEATURE*/
+.feature-heading{
+font-family: 'Capriola', sans-serif;
+  font-weight: bold;
+  font-size: 1.2rem;
+  line-height:1cm;
+
+}
+.feature-paragraph{
+font-size: 1.3rem;
+   font-family: 'Comic Neue', cursive;;
+  color:#9c5518;
+}
+
+/*navigation bar*/
+.navbar-brand{
+
+  font-family: "ubuntu";
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+.navbar{
+  padding: 0 0 4.5rem;
+}
+.nav-item{
+  padding-left: 18px;
+  padding-right: 18px;
+}
+.nav-link{
+  font-size:1.3rem;
+  font-family: "Montserrat-Light";
+}
+/*  DOWNLOAD BUTTON */
+.download-button{
+  margin:10% 3% 5% 0;
+}
+.image-iphone{
+  width: 60%;
+  transform:rotate(25deg);
+  position: absolute;
+  right: 30%;
+
+}
+/* FEATURE SECTION*/
+#features{
+  padding:7% 15%;
+  background-color: white;
+  position: relative;
+
+  }
+.feature-box{
+  text-align: center;
+  padding:5%;
+}
+.icon{
+  line-height: 2.3cm;
+  color: orange;
+}
+.icon:hover
+{
+  color:#f76a8c;
+}
+/* Testimonial*/
+#testimonials
+{
+
+  text-align: center;
+  background-color: #fb7b6b;
+  color: white;
+}
+.testimonial-heading{
+  font-family: 'Capriola', sans-serif;
+  font-size: 2.7rem;
+  line-height: 1.5cm;
+
+}
+.testimonial-image{
+
+  width:15%;
+  border-radius: 100%;
+  margin:20px;
+}
+#press{
+  background-color: #fb7b6b;
+  text-align: center;
+  padding-bottom: 4%;
+}
+.press-image{
+  width:15%;
+  margin: 20px 20px 50px ;
+}
+.carousel-item{
+    padding:7% 15%;;
+}
+#pricing{
+  padding: 7%;
+  text-align: center;
+}
+.pricing-css{
+  padding: 5%;
+}
+.pricing-paragraph{
+  font-size: 1.3rem;
+     font-family: 'Comic Neue', cursive;
+    color:#9c5518;
+  }
+  @media (max-width: 1023px){
+.image-iphone{
+  position: static;
+  transform: rotate(0);
+}
+#title{
+  text-align: center;
+}
+
+  }
+/* CALL TGO ACTION*/
+#cta{
+  background-color: #f76a8c;
+  text-align: center;
+
+}
+.call-header{
+  font-family: 'Capriola', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5cm;
+    padding: 50px 40px;
+    color: white;
+}
+.download-button1{
+  margin:6% 3% 5% ;
+}
+/* footer */
+#footer{
+  text-align: center;
+  background-color: white;
+}
+.footer-para{
+  font-size: 1.3rem;
+     font-family: 'Oswald', sans-serif;
+    color:#9c5518;
+    padding-bottom: 5%;
+}
+.icon-footer{
+  padding: 5% 2% 2% 2%;
+}
+.icon-footer:hover{
+  color:#00bcd4;
+}
